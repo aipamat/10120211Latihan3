@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-
+    //    29 April 2023
+    //    10120211 - Arif Rachmat Darmawan - IF6
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

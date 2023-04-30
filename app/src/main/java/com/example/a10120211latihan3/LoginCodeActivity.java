@@ -12,6 +12,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginCodeActivity extends AppCompatActivity {
+    //    29 April 2023
+    //    10120211 - Arif Rachmat Darmawan - IF6
 private String code;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

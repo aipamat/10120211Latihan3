@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class BiodataActivity extends AppCompatActivity {
+    //    29 April 2023
+    //    10120211 - Arif Rachmat Darmawan - IF6
     private String nameBioData;
     public static final String ID_EXTRA_MSG = "com.example.a10120211latihan3.MSG";
 

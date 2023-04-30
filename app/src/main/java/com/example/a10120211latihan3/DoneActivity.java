@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class DoneActivity extends AppCompatActivity {
+    //    29 April 2023
+    //    10120211 - Arif Rachmat Darmawan - IF6
     private String name;
 
     @Override
