@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiodataActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8"
+        android:clipToPadding="false"
+        android:padding="26dp"
+        tools:context=".view.activation.RegisterFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:text="Nama Panggilan Kamu"
+                android:textColor="#525b60"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtBiodataName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contoh : Budi"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:maxLength="8"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:singleLine="true"
+                android:textColor="#525b60"
+                android:textColorHint="#dedede"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="34dp"
+                android:text="Umur Kamu"
+                android:textColor="#525b60"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtBiodataAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contoh : 12"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:singleLine="true"
+                android:textColor="#525b60"
+                android:textColorHint="#dedede"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBiodataNext"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:textSize="14sp"
+            android:textColor="#de000000"
+            android:background="@drawable/bg_button_gradient_yellow_rounded18"
+            android:text="Selanjutnya"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
